@@ -24,3 +24,21 @@ function mostrarLista (){
         lista.appendChild(li);
     }
 }
+
+function sortearAmigo () {
+    if (nombreAmigos.length === 0){
+        alert("No hay amigos en la lista para sortear");
+    }
+
+    let indiceAleatorio = Math.floor(Math.random()*nombreAmigos.length);
+    let nombreSorteado = nombreAmigos[indiceAleatorio];
+
+    let resultado = document.getElementById("resultado");
+    resultado.innerHTML = `<li>${nombreSorteado}</li>`;
+
+}
+
+function limpiarCaja(){
+    document.querySelector('#amigo').value = '';
+    return;
+}
