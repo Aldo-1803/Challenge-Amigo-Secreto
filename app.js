@@ -10,6 +10,17 @@ function agregarAmigo() {
         nombreAmigos.push(nombre);
         limpiarCaja();
     }
-    console.log(nombre);
+    //console.log(nombre);
     mostrarLista();
+}
+
+function mostrarLista (){
+    let lista = document.getElementById('listaAmigos');
+    lista.innerHTML = "";
+    
+    for (let i = 0; i < nombreAmigos.length; i++) {
+        let li = document.createElement('li'); 
+        li.textContent = nombreAmigos[i]; 
+        lista.appendChild(li);
+    }
 }
