@@ -1,8 +1,7 @@
 # Amigo Secreto
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Java](https://img.shields.io/badge/Java-11-blue.svg)
-![Completion Date](https://img.shields.io/badge/completion%20date-October%202023-green.svg)
+![Java](https://img.shields.io/badge/Java-21.0.4-blue.svg)
+![Completion Date](https://img.shields.io/badge/completion%20date-February%202025-green.svg)
 
 ## Índice
 - [Amigo Secreto](#amigo-secreto)
